@@ -1,6 +1,6 @@
 # Cronobitly URL Shortener
 
-I took (maybe too many) shortcuts because of time restraints and my Rails install breaking. On the brightside, I have a lot of room for improvement with the app visually as well as working on finer workings of optimizating the way links are both generated and subsquently the amount of bashing the database will take from heavy use at scale. 
+I took (maybe too many) shortcuts because of time restraints and my Rails install breaking. On the bright side, I have a lot of room for improvement with the app visually as well as working on finer workings of optimizing the way links are both generated and subsequently the amount of bashing the database will take from heavy use at scale.
 
 Setup
 ```
