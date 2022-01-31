@@ -1,0 +1,9 @@
+<h1>Shorten a URL</h1>
+
+<%= form_for @shortener do |f| %>
+  <p>
+    <%= f.label :given_url %> : <%= f.text_field :given_url, placeholder: "Ensure link is valid", id: "url-input" %>
+  </p>
+  <%= f.submit "Shorten!", id: "submit-btn" %>
+<% end %>
+

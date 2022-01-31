@@ -1,0 +1,7 @@
+<h1>List of shortened URLS</h1>
+
+
+<% @shortener.each do |s|  %>
+<p><%= link_to "cronobitly.com/#{s.slug}", s.given_url  %> | <%= link_to s.given_url %>  </p>
+
+<% end %>
